@@ -1,0 +1,46 @@
+.left-sidebar {
+  background-color: white;
+  padding: 10px;
+  width: 200px;
+  margin-right: 5px;
+}
+
+.left-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #333;
+  padding: 10px;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.list:hover {
+  background-color: #fbceb1;
+}
+
+.list.active {
+  background-color: #ffe1cb;
+  /* color: white; */
+}
+
+.sty {
+  width: 5px;
+  background-color: #f48024;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: none; /* Initially hidden */
+  transition: background-color 0.3s ease;
+}
+
+.list.active .sty {
+  display: block; /* Visible only when the list item is active */
+}

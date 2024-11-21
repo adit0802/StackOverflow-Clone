@@ -1,0 +1,16 @@
+.topqn {
+  color: #606060;
+}
+.btn {
+  color: white;
+  background-color: #0374ff;
+  border-radius: 20px;
+  padding: 10px 25px;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 320px;
+}
+.btngang {
+  display: flex;
+}
